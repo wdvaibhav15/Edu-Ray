@@ -25,3 +25,8 @@ nav ul li{
     background-color: #212EA0;
     transition: 0.5s;
 }
+.btn{
+    background: #212EA0;
+    color: white;
+    
+}
