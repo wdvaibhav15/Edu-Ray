@@ -1,6 +1,6 @@
 nav{
     width: 100%;
-    background:#333;
+    /* background:#333; */
     color: #fff;
     padding:4px 0;
     position: fixed;
@@ -19,18 +19,4 @@ nav ul li{
     list-style: none;
     margin: 5px 20px;
     font-size: 16px;
-}
-.container{
-    padding-left: 10%;
-    padding-right: 10%;
-}
-.btn{
-    background: white;
-    color: #212121;
-    padding: 14px 25px;
-    font-size: 16px;
-    border-radius: 30px;
-    cursor: pointer;
-    border: 0;
-    outline: 0;
 }
