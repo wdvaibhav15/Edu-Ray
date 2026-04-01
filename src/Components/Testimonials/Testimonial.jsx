@@ -43,7 +43,7 @@ const Testimonial = () => {
                             <span>Computer Science</span>
                         </div>
                     </div>
-                    <p>Choosing to pirsue my degree at Edu-Ray was one of the best decision I've ever made. The supportive community , states-of-the -art facilities, and commitment to academin excellence have truly exceeded my expextations.</p>
+                    <p>Choosing to persue my degree at Edu-Ray was one of the best decision I've ever made. The supportive community , states-of-the-art facilities, and commitment to academic excellence have truly exceeded my expextations.</p>
                    </div>
                 </li>
                 <li>
