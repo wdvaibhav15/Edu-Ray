@@ -51,11 +51,11 @@ const Contact = () => {
       </div>
       <div className="contact-col">
         <form  onSubmit={onSubmit}>
-            <lebel>Your Name</lebel>
+            <label>Your Name</label>
             <input type="text" name="name" placeholder='Enter your name' required />
-            <lebel>Your Phone Number</lebel>
+            <label>Your Phone Number</label>
             <input type="tell" name="phone" placeholder='Enter your Phone Number' required />
-            <lebel>Message </lebel>
+            <label>Message </label>
             <textarea name ="message"  rows="6" placeholder='Enter your message here' required></textarea>
             <button type='submit' className='btn dark-btn'>Send Message <img src={white_arrow} alt="" /></button>
         </form>

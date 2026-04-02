@@ -30,3 +30,17 @@
     width: 15px;
     margin-left: 10px;
 }
+/* -----------Media Query------------   */
+
+@media(max-width: 800px) {
+   .gallery{
+    flex-wrap: wrap;
+   }
+   .gallery img{
+    align-items: center;
+    width: 48%;
+    margin-top: 10px;
+    margin-left: 85px;
+    margin-bottom:25px ;
+   }
+}
