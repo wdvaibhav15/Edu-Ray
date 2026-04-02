@@ -1,9 +1,8 @@
 nav{
     width: 100%;
     height: 70px;
-    /* background:#333; */
     color: #fff;
-    padding:4px 0;
+    padding: 4px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -12,65 +11,90 @@ nav{
     justify-content: space-between;
     z-index: 10;
 }
+
 .logo{
-    width: 180px;  
+    width: 180px;
 }
+
 nav ul li{
-    display:inline ;
+    display: inline-block;
     list-style: none;
     margin: 5px 20px;
     font-size: 16px;
 }
+
 .dark-nav{
     background-color: #212EA0;
     transition: 0.5s;
 }
+
 .btn{
     background: #212EA0;
     color: white;
-    
+    padding: 12px 22px;
+    border-radius: 30px;
+    display: inline-block;
 }
+
 .menu-icon{
     display: none;
 }
 
-/* ------------media query ------- */
+/* ------------ Tablet ------------ */
 @media(max-width: 1000px){
     .logo{
         width: 140px;
     }
-    
+
     nav ul li{
         margin: 10px 15px;
+        font-size: 15px;
     }
-     
- }
- @media(max-width: 840px){
+}
+
+/* ------------ Mobile ------------ */
+@media(max-width: 840px){
     nav{
-        padding: 15px 0;
+        padding: 15px 5%;
+        background: #212EA0;
     }
+
     nav ul{
         position: fixed;
         top: 0;
-        right:-200px;
+        right: 0;
         bottom: 0;
-        background: #212EA0;
-        z-index: -1;
         width: 200px;
+        height: 100vh;
+        background: #212EA0;
         padding-top: 70px;
-        transition: 0.5s;
+        transition: right 0.5s ease;
+        z-index: 9;
     }
+
     nav ul li{
-       display: block;
-       margin: 25px 0;
-       text-align: center;
+        display: block;
+        margin: 25px 0;
+        text-align: center;
     }
+
+    /* Mobile Contact button */
+    nav ul .btn{
+        background: white;
+        color: black;
+        padding: 12px 22px;
+        border-radius: 30px;
+        display: inline-block;
+    }
+
     .menu-icon{
         display: block;
         width: 30px;
         cursor: pointer;
+        z-index: 10;
     }
+
     .hide-mobile-menu{
-       right: -200px; 
+        right: -200px;
     }
- }
+}
